@@ -1,0 +1,10 @@
+
+ *FIX 2004/01/05: Welcome message was corrected to display proper operating
+                  system version.
+
+ *FIX 2004/01/05: Patched "make_program_autorun()" to make correct entries
+                  in Windows XP. NOTE: Ugly patch...
+
+ *FIX 2004/01/06: Keylogger fixed, now it works even in Windows XP!
+
+ *BUG 2004/01/06: Registry entries don't work.

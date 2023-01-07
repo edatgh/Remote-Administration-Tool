@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: net_tool2 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP27B.tmp" with contents
+[
+/nologo /ML /w /W0 /GX /O1 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Documents and Settings\Administrator\Desktop\ffffffffffffffffffff\net_tool2.1-57\source\fake_libc.c"
+"D:\Documents and Settings\Administrator\Desktop\ffffffffffffffffffff\net_tool2.1-57\source\net_tool_main.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP27B.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP27C.tmp" with contents
+[
+kernel32.lib user32.lib advapi32.lib shell32.lib wsock32.lib /nologo /version:2.0 /entry:"WinMain" /subsystem:windows /incremental:no /pdb:"Release/net_tool2.pdb" /machine:I386 /nodefaultlib /out:"Release/net_tool2.exe" 
+".\Release\fake_libc.obj"
+".\Release\net_tool_main.obj"
+]
+Creating command line "link.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP27C.tmp"
+<h3>Output Window</h3>
+Compiling...
+fake_libc.c
+Generating Code...
+Compiling...
+net_tool_main.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+net_tool2.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

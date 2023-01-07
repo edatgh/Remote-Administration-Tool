@@ -1,0 +1,26 @@
+
+	Structure of Net Tool v2.0 configuration file.
+
+	CONFIGFILE_SECTION:
+		+------------+
+                | int d_s;   |
+                +------------+
+                | data[d_s]; |
+                +------------+
+                
+
+        1. File header          +---------------------+
+                                | int nt_header_id;   |
+                                | int nr_logstorages; |
+                                | int nr_mailservers; |
+        2. Program password     +-------------------- +
+                                | CONFIGFILE_SECTION  |
+        3. Max. logfile size    +---------------------+
+                                | CONFIGFILE_SECTION  |
+        4. List of log storages +---------------------+
+                                | CONFIGFILE_SECTION  |
+                                | .        .        . |
+        5. List og mail servers +---------------------+
+                                | CONFIGFILE_SECTION  |
+                                | .        .        . |
+                                +---------------------+
