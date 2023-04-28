@@ -20,7 +20,7 @@
         4. List of log storages +---------------------+
                                 | CONFIGFILE_SECTION  |
                                 | .        .        . |
-        5. List og mail servers +---------------------+
+        5. List of mail servers +---------------------+
                                 | CONFIGFILE_SECTION  |
                                 | .        .        . |
                                 +---------------------+
