@@ -13,20 +13,6 @@ Redistribution and use in source and binary forms, with or without modification,
 	
 */
 
-/*
- *	DESCRIPTION: 4 Fun and profit:
- *
- *	This program was written for remote computer administration, it is OPEN SOURCE and
- *	FREE WARE only for tiny round of people, so if you are fucker or user, don't use it,
- *	else, I'll find you anywhere and you will pay me much more you can imagine... }:-|
- *	This program is controlled by the "Telnet" program, the cause is that, that I am 
- *	working with UNIX, but wanna control users under "Windows" }:-)
- *
- *	Compilation only with Visual C++ !!!
- *
- *		Author: Edward Gess
- */
-
 /* INCLUDES */
 #include <windows.h>
 #include <tlhelp32.h>
